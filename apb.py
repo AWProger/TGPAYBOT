@@ -22,7 +22,7 @@ TOK =  PAYMENTS_TOKEN
 async def buy(message: types.Message):
     new = message.from_user.id
     quicklipay = Quickpay(
-        receiver="################################",
+        receiver="############################",
         quickpay_form="Shop",
         targets="Sponsor",
         paymentType="SB",
